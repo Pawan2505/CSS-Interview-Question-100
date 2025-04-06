@@ -1,0 +1,42 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.card .job {
+  color: gray;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.card button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #005f73;
+}
