@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Types</title>
+
+    <!-- Internal CSS -->
+    <style>
+      .internal-box {
+        background-color: lightblue;
+        color: black;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Types of CSS</h1>
+
+    <!-- Inline CSS -->
+    <div
+      style="
+        background-color: lightgreen;
+        color: black;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+      "
+    >
+      This box uses <strong>Inline CSS</strong>.
+    </div>
+
+    <!-- Internal CSS -->
+    <div class="internal-box">This box uses <strong>Internal CSS</strong>.</div>
+
+    <!-- External CSS -->
+    <div class="external-box">This box uses <strong>External CSS</strong>.</div>
+  </body>
+</html>
