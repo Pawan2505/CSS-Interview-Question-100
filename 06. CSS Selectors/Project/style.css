@@ -1,0 +1,41 @@
+/* 1️⃣ Simple Selectors */
+h1 {
+  color: teal;
+}
+
+.intro {
+  font-style: italic;
+}
+
+/* 2️⃣ Combinator Selector */
+.container > p {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+/* 3️⃣ Pseudo-class Selector */
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+li:first-child {
+  color: green;
+  font-weight: bold;
+}
+
+/* 4️⃣ Pseudo-element Selector */
+.intro::first-line {
+  color: blue;
+  font-size: 20px;
+}
+
+.container p::before {
+  content: "📌 ";
+}
+
+/* 5️⃣ Attribute Selector */
+input[type="text"] {
+  border: 2px solid orange;
+  padding: 5px;
+}
