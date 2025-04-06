@@ -1,0 +1,32 @@
+/* Default style - Desktop */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  width: 500px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+  .card {
+    width: 300px;
+    background-color: #79cdd8;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+  .card {
+    width: 90%;
+    background-color: #a5680b;
+  }
+}
