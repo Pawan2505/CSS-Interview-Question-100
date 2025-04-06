@@ -74,5 +74,5 @@ input[type="text"] {
 ---
 
 📚 CSS selectors give you **full control** over how you style your web pages.
-```
+
 
